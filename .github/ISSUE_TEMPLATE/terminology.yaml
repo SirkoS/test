@@ -76,8 +76,8 @@ body:
       description: Is the terminology formalized, e.g., as an RDF-resource?
       multiple: true
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
         - I don't know
   - type: textarea
     id: alignments
