@@ -90,6 +90,6 @@ body:
     id: comments
     attributes:
       label: Comments
-      description:Is there anything else you would like us to know about the terminology?
+      description: Is there anything else you would like us to know about the terminology?
     validations:
       required: false
