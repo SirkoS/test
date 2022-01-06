@@ -74,7 +74,7 @@ body:
     attributes:
       label: Formalization
       description: Is the terminology formalized, e.g., as an RDF-resource?
-      multiple: true
+      multiple: false
       options:
         - "Yes"
         - "No"
@@ -84,5 +84,12 @@ body:
     attributes:
       label: Alignment(s)
       description: Are you aware of any alignments to other terminologies?
+    validations:
+      required: false
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description:Is there anything else you would like us to know about the terminology?
     validations:
       required: false
